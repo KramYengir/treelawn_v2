@@ -8,9 +8,6 @@ const HomePage = () => {
     <div>
       <Navbar />
       <Hero />
-      <section className="h-[95vh]">
-        <h2>About</h2>
-      </section>
       <AboutSection />
     </div>
   );
