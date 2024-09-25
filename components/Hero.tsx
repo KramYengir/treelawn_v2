@@ -20,7 +20,7 @@ const Hero = () => {
             <a href="#services" className="primary-btn">
               Learn More
             </a>{" "}
-            <a href="#contact" className="secondary-btn">
+            <a href="#contact" className="clear-btn">
               Contact Us
             </a>
           </div>
