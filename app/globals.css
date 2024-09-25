@@ -7,9 +7,13 @@
 }
 
 .primary-btn {
-  @apply uppercase px-6 py-4 rounded-md text-sm font-bold text-white bg-apple-700 hover:bg-apple-400 hover:text-mucky-950 focus:outline-none;
+  @apply uppercase px-6 py-4 rounded-md text-sm font-bold text-white bg-apple-700 hover:bg-apple-600 focus:outline-none;
 }
 
 .secondary-btn {
-  @apply uppercase px-6 py-4 rounded-md text-sm font-bold text-mucky-950 bg-white hover:bg-apple-600 hover:text-white focus:outline-none;
+  @apply uppercase px-6 py-4 rounded-md text-sm font-bold text-white bg-mucky-800 hover:bg-mucky-600 focus:outline-none;
+}
+
+.clear-btn {
+  @apply uppercase px-6 py-4 rounded-md text-sm font-bold text-mucky-950 bg-mucky-50 hover:bg-mucky-100 hover:text-apple-700 focus:outline-mucky-700;
 }
