@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Menu (Dropdown) */}
       <div
-        className={`md:hidden bg-mucky-950/90 text-white w-full transition-all duration-300 ease-in-out overflow-hidden ${
+        className={`md:hidden bg-mucky-50/90 text-mucky-950 font-medium w-full transition-all duration-300 ease-in-out overflow-hidden shadow-lg ${
           isOpen ? "max-h-80" : "max-h-0"
         }`}
       >
