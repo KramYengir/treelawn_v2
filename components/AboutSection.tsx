@@ -2,13 +2,11 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="h-[95vh] py-24">
-      <h2 className="uppercase text-6xl text-mucky-900 font-bold tracking-wide text-center pb-24 mx-auto">
-        About us
-      </h2>
+    <section id="about" className="min-h-[90vh] py-24">
+      <h2 className="h2 text-mucky-800">About us</h2>
       <div className="rm-container flex flex-wrap items-center justify-evenly gap-12">
         {/* images & logo */}
-        <div className="relative grid grid-cols-2 max-w-md aspect-4/3 overflow-hidden">
+        <div className="relative grid grid-cols-2 max-w-lg aspect-4/3 overflow-hidden">
           <div className="overflow-hidden border-4 border-mucky-50 rounded-2xl ">
             <img
               src="/images/guy-clipping.jpg"
@@ -31,23 +29,23 @@ const AboutSection = () => {
 
         {/* about us info */}
         <div className="flex-1 flex flex-col items-start gap-4 max-w-lg">
-          <h3 className="uppercase text-3xl text-apple-900 font-extrabold tracking-wide">
-            What Treelawn represents
+          <h3 className="uppercase text-3xl text-mucky-900/80 font-extrabold tracking-wide border-l-8 border-apple-800/90 pl-2">
+            How I got started in this business
           </h3>
-          <p>
+          <p className="pl-2">
             At Treelawn, we pride ourselves on over 20 years of dedicated
             experience in the arboriculture and landscaping industry. As a solo
             operator, I bring a personal touch to every project, ensuring
             attention to detail and a focus on customer satisfaction.
           </p>
-          <p>
+          <p className="pl-2">
             With a passion for preserving the natural beauty of outdoor spaces,
             Treelawn combines expertise, professional-grade equipment, and
             industry certification to deliver exceptional results. Whether it's
             tree maintenance, garden renovation, or pathway clearing, you can
             trust Treelawn for expert service and lasting quality.
           </p>
-          <a href="#contact" className="primary-btn">
+          <a href="#contact" className="primary-btn ml-2">
             Get In Touch
           </a>
         </div>
