@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .rm-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .primary-btn {
@@ -16,4 +16,8 @@
 
 .clear-btn {
   @apply uppercase px-6 py-3 rounded-md text-sm font-bold text-mucky-950 bg-mucky-50 hover:bg-mucky-100 hover:text-apple-700 focus:outline-mucky-700;
+}
+
+.h2 {
+  @apply uppercase text-6xl font-bold tracking-wide text-center pb-24 mx-auto;
 }
