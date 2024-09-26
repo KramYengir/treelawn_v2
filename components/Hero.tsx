@@ -1,4 +1,5 @@
 import React from "react";
+import ToolIcons from "@/components/ToolIcons";
 
 const Hero = () => {
   return (
@@ -13,7 +14,8 @@ const Hero = () => {
             way
           </h1>
         </div>
-        <div className="flex-1 flex flex-col items-start justify-center gap-x-12 gap-y-4 max-w-lg">
+        <div className="flex-1 flex flex-col items-start justify-center gap-x-12 gap-y-6 max-w-lg">
+          <ToolIcons />
           <p className="font-medium md:text-lg lg:text-xl max-w-md">
             With over two decades of hands-on experience specializing in tree
             work, Treelawn stands as a trusted one-man operation committed to
@@ -27,24 +29,6 @@ const Hero = () => {
               Get In Touch
             </a>
           </div>
-        </div>
-      </div>
-
-      <div className="absolute bottom-0 right-[50%] translate-x-[50%] translate-y-[20%] flex w-full items-center justify-center gap-[4%] px-12">
-        <div className="max-w-24 overflow-hidden bg-gradient-to-t from-apple-950 to-apple-800 rounded-2xl border-2 border-mucky-50 shadow-lg ">
-          <img
-            src="/images/lawnmower-zoom.png"
-            alt="simple lawnmower graphic"
-          />
-        </div>
-        <div className="max-w-24 overflow-hidden bg-gradient-to-t from-mucky-950 to-mucky-800 rounded-2xl border-2 border-mucky-50 shadow-lg ">
-          <img src="/images/digger-zoom.png" alt="simple digger graphic" />
-        </div>
-        <div className="max-w-24 overflow-hidden bg-gradient-to-t from-apple-950 to-apple-800 rounded-2xl border-2 border-mucky-50 shadow-lg ">
-          <img src="/images/clippers-zoom.png" alt="simple clippers graphic" />
-        </div>
-        <div className="max-w-24 overflow-hidden bg-gradient-to-t from-mucky-950 to-mucky-800 rounded-2xl border-2 border-mucky-50 shadow-lg ">
-          <img src="/images/chainsaw-zoom.png" alt="simple chainsaw graphic" />
         </div>
       </div>
     </section>
