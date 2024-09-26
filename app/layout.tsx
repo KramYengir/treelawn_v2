@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en">
       <body
         className={`${saira.className}  antialiased min-h-full text-mucky-900 bg-mucky-50`}
       >
