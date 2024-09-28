@@ -1,12 +1,12 @@
 import React from "react";
 
-const AboutSection = () => {
+const About = () => {
   return (
     <section id="about" className="min-h-[90vh] py-24">
-      <h2 className="h2 text-mucky-800">About us</h2>
-      <div className="rm-container flex flex-wrap items-center justify-evenly gap-12">
+      <h2 className="h2 text-mucky-800">Who we are</h2>
+      <div className="rm-container grid lg:grid-cols-2 items-center justify-evenly gap-12">
         {/* images & logo */}
-        <div className="relative grid grid-cols-2 max-w-lg aspect-4/3 overflow-hidden">
+        <div className="relative grid grid-cols-2 max-w-lg aspect-4/3 overflow-hidden mx-auto">
           <div className="overflow-hidden border-4 border-mucky-50 rounded-2xl ">
             <img
               src="/images/guy-clipping.jpg"
@@ -29,7 +29,7 @@ const AboutSection = () => {
 
         {/* about us info */}
         <div className="flex-1 flex flex-col items-start gap-4 max-w-lg">
-          <h3 className="uppercase text-3xl text-mucky-900/80 font-extrabold tracking-wide border-l-8 border-apple-800/90 pl-2">
+          <h3 className="uppercase text-2xl md:text-3xl text-mucky-900/80 font-extrabold tracking-wide border-l-8 border-apple-800/90 pl-2">
             How I got started in this business
           </h3>
           <p className="pl-2">
@@ -54,4 +54,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;

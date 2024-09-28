@@ -1,16 +1,20 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import AboutSection from "@/components/AboutSection";
-import ServicesSection from "@/components/ServicesSection";
+import About from "@/components/About";
+import Services from "@/components/Services";
+import GallerySection from "@/components/GallerySection";
+import Contact from "@/components/Contact";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <AboutSection />
-      <ServicesSection />
+      <About />
+      <Services />
+      {/* <GallerySection /> */}
+      <Contact />
     </div>
   );
 };

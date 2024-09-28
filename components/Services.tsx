@@ -32,11 +32,11 @@ const services = [
   },
 ];
 
-const ServicesSection = () => {
+const Services = () => {
   return (
     <section
       id="services"
-      className="grid bg-[url('../public/images/garden-after.jpeg')] bg-cover bg-bottom py-24"
+      className="grid bg-[url('../public/images/garden-after-sm.jpeg')] sm:bg-[url('../public/images/garden-after.jpeg')] bg-cover bg-center py-24"
     >
       <div className="rm-container">
         <h2 className="h2 text-mucky-50">Our Services</h2>
@@ -56,4 +56,4 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default Services;
