@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full  bg-neutral-950/60 backdrop-blur-md text-white shadow-lg z-50">
       <div className="rm-container flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold tracking-wide">
+        <Link href="#hero" className="text-2xl font-bold tracking-wide">
           Tree<span className="text-apple-600">Lawn</span>
         </Link>
 
