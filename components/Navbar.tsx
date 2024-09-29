@@ -13,8 +13,18 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full  bg-neutral-950/60 backdrop-blur-md text-white shadow-lg z-50">
       <div className="rm-container flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <Link href="#hero" className="text-2xl font-bold tracking-wide">
-          Tree<span className="text-apple-600">Lawn</span>
+        <Link
+          href="#hero"
+          className="relative text-3xl font-bold tracking-wide"
+        >
+          <p>
+            Tree<span className="text-apple-600">Lawn</span>
+          </p>
+          <img
+            src="/images/grass.png"
+            alt="grass"
+            className="absolute right-0 bottom-0 translate-x-[100%] translate-y-[10%] h-10 w-auto"
+          />
         </Link>
 
         {/* Navigation Links (Desktop) */}
