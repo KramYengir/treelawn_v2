@@ -1,6 +1,12 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { Merriweather } from "next/font/google";
+
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "900"],
+});
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +21,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           href="#hero"
-          className="relative text-3xl font-bold tracking-wide"
+          className={`${merriweather.className} relative text-2xl font-bold tracking-wider`}
         >
           <p>
             Tree<span className="text-apple-600">Lawn</span>
