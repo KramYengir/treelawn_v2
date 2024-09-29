@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Services from "@/components/Services";
 import GallerySection from "@/components/GallerySection";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Services />
       {/* <GallerySection /> */}
       <Contact />
+      <Footer />
     </div>
   );
 };
