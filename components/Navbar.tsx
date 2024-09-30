@@ -29,7 +29,7 @@ const Navbar = () => {
           <img
             src="/images/grass.png"
             alt="grass"
-            className="absolute right-0 bottom-0 translate-x-[100%] translate-y-[10%] h-8 w-auto"
+            className="absolute right-0 bottom-0 translate-x-[100%] h-6 w-auto"
           />
         </Link>
 
