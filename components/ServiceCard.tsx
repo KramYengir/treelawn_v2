@@ -14,10 +14,12 @@ const ServiceCard = ({
   description,
 }: ServiceCardProps) => {
   return (
-    <div className="relative grid gap-4 items-start justify-center text-center px-2 py-12 max-w-xs bg-neutral-950/20 rounded-xl">
-      <img src={imgUrl} alt={imgAlt} className="w-[30%] mx-auto" />
-      <h3 className="text-balance text-3xl text-mucky-50 font-bold">{title}</h3>
-      <p className="text-balance text-mucky-50 font-medium tracking-wide max-w-64 mx-auto">
+    <div className="relative grid gap-4 items-start justify-center text-center pb-12 min-w-80 bg-gradient-to-t from-mucky-50 to-mucky-100 rounded-xl">
+      <img src={imgUrl} alt={imgAlt} className="w-20 pt-12 pb-8 mx-auto" />
+      <h3 className="w-80 uppercase text-balance text-2xl text-mucky-950 tracking-wide py-2 font-medium">
+        {title}
+      </h3>
+      <p className="text-balance tracking-wide max-w-64 mx-auto">
         {description}
       </p>
       <div className="absolute inset-0 -z-10 backdrop-blur-md rounded-xl"></div>

@@ -3,30 +3,30 @@ import ServiceCard from "@/components/ServiceCard";
 
 const services = [
   {
-    imgUrl: "/images/chainsaw-zoom.png",
+    imgUrl: "/images/chainsaw-brown.png",
     imgAlt: "simple graphic of a chainsaw",
-    title: "Tree Maintenance",
+    title: "Tree Care",
     description:
       "As an experienced arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
   },
   {
-    imgUrl: "/images/digger-zoom.png",
+    imgUrl: "/images/digger-brown.png",
     imgAlt: "simple graphic of a digger",
     title: "Area Clearance",
     description:
       "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
   },
   {
-    imgUrl: "/images/clippers-zoom.png",
+    imgUrl: "/images/clippers-brown.png",
     imgAlt: "simple graphic of a clippers",
     title: "Pruning & Trimming",
     description:
       "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
   },
   {
-    imgUrl: "/images/lawnmower-zoom.png",
+    imgUrl: "/images/lawnmower-brown.png",
     imgAlt: "simple graphic of a lawnmower",
-    title: "Garden Maintenance",
+    title: "Garden Work",
     description:
       "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
   },
