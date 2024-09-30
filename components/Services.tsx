@@ -7,28 +7,28 @@ const services = [
     imgAlt: "simple graphic of a chainsaw",
     title: "Tree Maintenance",
     description:
-      "As an experienced arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
+      "As an experienced arborist, I provide expert tree cutting, trimming and clearance to keep your property safe and well-maintained",
   },
   {
     imgUrl: "/images/digger-zoom.png",
     imgAlt: "simple graphic of a digger",
-    title: "Area Clearance",
+    title: "Land Clearance",
     description:
-      "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
+      "Clear unwanted vegetation, debris and obstacles from overgrown areas, preparing your land for landscaping, construction, or personal use",
   },
-  {
-    imgUrl: "/images/clippers-zoom.png",
-    imgAlt: "simple graphic of a clippers",
-    title: "Pruning & Trimming",
-    description:
-      "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
-  },
+  // {
+  //   imgUrl: "/images/clippers-zoom.png",
+  //   imgAlt: "simple graphic of a clippers",
+  //   title: "Pruning & Trimming",
+  //   description:
+  //     "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
+  // },
   {
     imgUrl: "/images/lawnmower-zoom.png",
     imgAlt: "simple graphic of a lawnmower",
-    title: "Garden Work",
+    title: "Garden Renovations",
     description:
-      "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
+      "Revitalize your garden with custom landscaping, including new lawns, lawn replacement, and pathways tailored to your needs",
   },
 ];
 
