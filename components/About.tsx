@@ -15,14 +15,14 @@ const About = () => {
             How I got started in this business
           </h3>
           <p className="pl-2">
-            At Treelawn, we pride ourselves on over 20 years of dedicated
-            experience in the arboriculture and landscaping industry. As a solo
-            operator, I bring a personal touch to every project, ensuring
-            attention to detail and a focus on customer satisfaction.
+            My Name is Martin, a solo operator with over two decades of hands-on
+            experience in the arboriculture and landscaping industry. I bring a
+            personal touch to every project, ensuring attention to detail and a
+            focus on customer satisfaction.
           </p>
           <p className="pl-2">
             With a passion for preserving the natural beauty of outdoor spaces,
-            Treelawn combines expertise, professional-grade equipment, and
+            Treelawn combines expertise, professional-grade equipment and
             industry certification to deliver exceptional results. Whether it's
             tree maintenance, garden renovation, or pathway clearing, you can
             trust Treelawn for expert service and lasting quality.
