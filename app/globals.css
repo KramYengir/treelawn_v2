@@ -23,7 +23,7 @@ html {
 }
 
 .h2 {
-  @apply uppercase text-4xl md:text-5xl xl:text-6xl font-bold tracking-wide text-center pb-24 mx-auto;
+  @apply uppercase text-4xl md:text-5xl xl:text-6xl font-bold tracking-wide text-center pb-12 lg:pb-24 mx-auto;
 }
 
 @layer base {
