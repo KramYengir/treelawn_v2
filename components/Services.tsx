@@ -21,14 +21,14 @@ const services = [
     imgAlt: "simple graphic of a clippers",
     title: "Pruning & Trimming",
     description:
-      "As a skilled landscaper and arborist, I specialize in tree maintenance and management, including expert tree cutting and clearance services",
+      "Keep your land neat with professional pruning and trimming of overgrown hedges, shrubs and trees for a tidy, polished look",
   },
   {
     imgUrl: "/images/lawnmower-brown.png",
     imgAlt: "simple graphic of a lawnmower",
     title: "Garden Renovations",
     description:
-      "Revitalize your garden with custom landscaping, including new lawns, lawn replacement, and pathways tailored to your needs",
+      "Revitalize your garden with custom landscaping, including new lawns, lawn replacement and pathways tailored to your needs",
   },
 ];
 
