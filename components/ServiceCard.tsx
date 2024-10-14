@@ -15,7 +15,7 @@ const ServiceCard = ({
 }: ServiceCardProps) => {
   return (
     <div className="relative grid gap-4 items-start justify-center text-center px-2 py-16 max-w-xs bg-white/90 rounded-xl">
-      <img src={imgUrl} alt={imgAlt} className="w-[30%] mx-auto" />
+      <img src={imgUrl} alt={imgAlt} className="w-[30%] mx-auto" aria-hidden />
       <h3 className="text-balance text-3xl text-apple-700 font-bold">
         {title}
       </h3>
