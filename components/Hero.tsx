@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative flex flex-col justify-center text-mucky-50 pt-20 min-h-[90vh] bg-[url('../public/images/garden.webp')] bg-cover bg-center"
+      className="relative flex flex-col justify-center text-mucky-50 pt-20 min-h-[90vh] bg-[url('../public/images/garden-sm.webp')] md:bg-[url('../public/images/garden.webp')] bg-cover bg-center"
     >
       <div className="rm-container w-full flex flex-col lg:flex-row items-start lg:items-center justify-evenly gap-x-12 gap-y-12 text-balance">
         <div className="flex-1 flex flex-col items-start justify-center gap-y-4 max-w-md md:max-w-lg lg:max-w-2xl">

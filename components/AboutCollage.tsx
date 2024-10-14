@@ -23,7 +23,7 @@ const AboutCollage = () => {
       </div>
       <div className="overflow-hidden border-4 border-mucky-50 rounded-2xl ">
         <img
-          src="/images/woodcutter.jpg"
+          src="/images/woodcutter.webp"
           alt="branches being loaded into woodcutter"
         />
       </div>

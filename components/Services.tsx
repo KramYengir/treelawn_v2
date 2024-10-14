@@ -36,7 +36,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="grid bg-[url('../public/images/garden-after-sm.jpeg')] sm:bg-[url('../public/images/garden-after.jpeg')] bg-cover bg-center py-24"
+      className="grid bg-[url('../public/images/lawn-after-sm.jpeg')] sm:bg-[url('../public/images/lawn-after.jpeg')] bg-cover bg-center py-24"
     >
       <div className="rm-container">
         <h2 className="h2 text-mucky-50">Our Services</h2>
