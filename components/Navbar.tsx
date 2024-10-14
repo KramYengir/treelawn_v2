@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="rm-container flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <Link
-          href="#hero"
+          href="/#hero"
           className={`${merriweather.className} relative text-2xl font-bold tracking-wider`}
         >
           <p>
@@ -36,18 +36,24 @@ const Navbar = () => {
         {/* Navigation Links (Desktop) */}
         <ul className="hidden md:flex space-x-8">
           <li>
-            <a href="#about" className="hover:text-green-400">
+            <a href="/#about" className="hover:text-green-400">
               About
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-green-400">
+            <a href="/#services" className="hover:text-green-400">
               Services
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-green-400">
+            <a href="/#contact" className="hover:text-green-400">
               Contact
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="/previous-work" className="hover:text-green-400">
+              Previous Work
             </a>
           </li>
         </ul>
@@ -97,6 +103,14 @@ const Navbar = () => {
           <li>
             <a href="#contact" onClick={toggleMenu}>
               Contact
+            </a>
+          </li>
+          <li>
+            <hr className="border-mucky-950/20 w-[30%]" />
+          </li>
+          <li>
+            <a href="/previous-work" className="hover:text-green-400">
+              Previous Work
             </a>
           </li>
         </ul>
