@@ -10,18 +10,18 @@ const Hero = () => {
       <div className="rm-container w-full flex flex-col lg:flex-row items-start lg:items-center justify-evenly gap-x-12 gap-y-12 text-balance">
         <div className="flex-1 flex flex-col items-start justify-center gap-y-4 max-w-md md:max-w-lg lg:max-w-2xl">
           <h1
-            className="uppercase text-6xl md:text-7xl xl:text-8xl font-extrabold tracking-wide"
-            aria-label="shape your land the right way"
+            className="uppercase text-5xl md:text-7xl xl:text-8xl font-extrabold tracking-wide"
+            aria-label="excellence in outdoor services right way"
           >
-            shape your land the <span className="text-apple-600">right</span>{" "}
-            way
+            excellence in{" "}
+            <span className="text-apple-600">outdoor services</span>{" "}
           </h1>
         </div>
         <div className="flex-1 flex flex-col items-start justify-center gap-x-12 gap-y-6 max-w-lg">
           <p className="font-medium tracking-wide md:text-lg lg:text-xl max-w-md">
-            With over two decades of hands-on experience specializing in tree
-            work, Treelawn stands as a trusted one-man operation committed to
-            excellence in outdoor services.
+            With over two decades of hands-on experience in tree care and
+            landscaping, TreeLawn stands as a trusted one-man operation
+            dedicated to delivering excellence in outdoor services.
           </p>
           <div className="flex gap-4 pb-12 md:pb-0">
             <a href="#services" className="clear-btn">
