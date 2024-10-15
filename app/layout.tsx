@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Saira } from "next/font/google";
+import { Saira, Saira_Semi_Condensed } from "next/font/google";
 import "./globals.css";
 
-const saira = Saira({
+const saira = Saira_Semi_Condensed({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
 });
