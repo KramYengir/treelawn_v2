@@ -45,16 +45,15 @@ const PreviousWorkPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="h2 text-mucky-50 pt-32 pb-12 border-b-2 bg-apple-950 border-mucky-950/10 shadow-md">
+      <h1 className="h2 text-mucky-50 pt-32 pb-12 border-b-2 bg-apple-950 border-mucky-950/10 shadow-lg">
         Previous Work
       </h1>
-      <p className="text-lg md:text-xl font-medium text-balance text-center py-12 px-6 shadow-md">
-        Below are examples of some examples of the projects I have completed for
-        TreeLawn
+      <p className="text-xl md:text-2xl font-medium text-balance text-center bg-gradient-to-b from-mucky-950/10 to-mucky-950/5 py-12 px-6 shadow-md">
+        Below are some examples of recent projects completed by TreeLawn
       </p>
 
       {/* Wrap the GallerySection components in a <ul> */}
-      <ul className="rm-container divide-y divide-mucky-950/10">
+      <ul className="divide-y divide-mucky-950/10 divide">
         {previousWorkData.map((work, index) => (
           <li key={index} className="py-8">
             <GallerySection
@@ -69,6 +68,7 @@ const PreviousWorkPage = () => {
               imageAfterUrlB={work.imageAfterUrlB}
               imageAfterAltB={work.imageAfterAltB}
               caption={work.caption}
+              index={index}
             />
           </li>
         ))}
