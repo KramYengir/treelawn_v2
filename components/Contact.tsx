@@ -6,7 +6,8 @@ const Contact = () => {
     <section id="contact" className="grid py-24">
       <div className="rm-container text-mucky-50">
         <h2 className="h2 text-apple-600">
-          <span className="text-mucky-800">Any Questions?</span> Get In Touch!
+          <span className="text-mucky-800">Any Questions?</span>{" "}
+          <br className="md:hidden" /> Get In Touch!
         </h2>
         <div className="grid gap-6 w-full text-lg text-center font-medium tracking-wide">
           <div className="flex flex-col gap-4 justify-center min-h-48 py-6 rounded-xl bg-[url('../public/images/trees-forest-sm.jpg')] sm:bg-[url('../public/images/trees-forest.jpg')] bg-cover bg-top">
