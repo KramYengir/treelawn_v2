@@ -28,9 +28,14 @@ const About = () => {
             meets the highest standards. You can trust TreeLawn for expert
             service and lasting quality.
           </p>
-          <a href="#contact" className="primary-btn ml-2">
-            Get In Touch
-          </a>
+          <div className="flex gap-2">
+            <a href="/previous-work" className="clear-btn ml-2">
+              See Previous Work
+            </a>
+            <a href="#contact" className="primary-btn ml-2">
+              Get In Touch
+            </a>
+          </div>
         </div>
       </div>
     </section>
