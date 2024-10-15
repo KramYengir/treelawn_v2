@@ -45,9 +45,9 @@ const PreviousWorkPage = () => {
   return (
     <div>
       <Navbar />
-      <h2 className="h2 text-mucky-50 pt-32 pb-12 border-b-2 bg-apple-950 border-mucky-950/10 shadow-md">
+      <h1 className="h2 text-mucky-50 pt-32 pb-12 border-b-2 bg-apple-950 border-mucky-950/10 shadow-md">
         Previous Work
-      </h2>
+      </h1>
       <p className="text-lg md:text-xl font-medium text-balance text-center py-12 px-6 shadow-md">
         Below are examples of some examples of the projects I have completed for
         TreeLawn
