@@ -38,17 +38,22 @@ const GallerySection = ({
     <section className="w-full py-12">
       <div className="rm-container  gap-6 justify-center items-center ">
         <div>
-          <h2 className=" text-2xl font-bold text-center">{title}</h2>
+          <img
+            src="/images/logo-v3.png"
+            alt="treelawn logo"
+            className="mx-auto max-w-32"
+          />
+          <h2 className="text-2xl font-bold text-center">{title}</h2>
           <p className="text-lg md:text-xl font-light tracking-wide text-center max-w-[45ch] mx-auto py-6">
             {description}
           </p>
 
-          <div className=" flex justify-center items-center  max-w-screen-lg mx-auto overflow-hidden">
+          <div className="flex justify-center items-center max-w-screen-lg mx-auto overflow-hidden">
             <Carousel>
               <CarouselContent className="flex gap-2 w-full mx-auto">
                 {/* Image Before */}
                 <CarouselItem className="flex justify-center w-full flex-shrink-0 pl-0">
-                  <div className=" flex justify-center items-center  rounded-md overflow-hidden">
+                  <div className="flex justify-center items-center rounded-md overflow-hidden">
                     <div className="relative">
                       <img
                         src={imageBeforeUrl}
@@ -67,7 +72,7 @@ const GallerySection = ({
                 {/* Image During (optional) */}
                 {imageDuringUrl && (
                   <CarouselItem className="flex justify-center w-full flex-shrink-0 pl-0">
-                    <div className=" flex justify-center items-center  rounded-md overflow-hidden">
+                    <div className="flex justify-center items-center rounded-md overflow-hidden">
                       <div className="relative">
                         <img
                           src={imageDuringUrl}
@@ -86,7 +91,7 @@ const GallerySection = ({
 
                 {/* Image After */}
                 <CarouselItem className="flex justify-center w-full flex-shrink-0 pl-0">
-                  <div className=" flex justify-center items-center  rounded-md overflow-hidden">
+                  <div className="flex justify-center items-center rounded-md overflow-hidden">
                     <div className="relative">
                       <img
                         src={imageAfterUrl}
@@ -105,7 +110,7 @@ const GallerySection = ({
                 {/* Second After Image (optional) */}
                 {imageAfterUrlB && (
                   <CarouselItem className="flex justify-center w-full flex-shrink-0 pl-0">
-                    <div className=" flex justify-center items-center  rounded-md overflow-hidden">
+                    <div className="flex justify-center items-center rounded-md overflow-hidden">
                       <div className="relative">
                         <img
                           src={imageAfterUrlB}
@@ -124,10 +129,10 @@ const GallerySection = ({
               </CarouselContent>
 
               {/* Navigation */}
-              <CarouselPrevious className="absolute left-0 top-1/2  -translate-y-1/2 p-2">
+              <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 p-2">
                 Previous
               </CarouselPrevious>
-              <CarouselNext className="absolute right-0 top-1/2  -translate-y-1/2 p-2">
+              <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 p-2">
                 Next
               </CarouselNext>
             </Carousel>
