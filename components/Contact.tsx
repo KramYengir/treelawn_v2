@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="grid py-24">
       <div className="rm-container text-mucky-50">
-        <h2 className="h2 text-apple-600">
+        <h2 className="h2 text-apple-700">
           <span className="text-mucky-800">Any Questions?</span>{" "}
           <br className="md:hidden" /> Get In Touch!
         </h2>
