@@ -91,17 +91,17 @@ const Navbar = () => {
       >
         <ul className="flex flex-col space-y-4 px-6 py-6">
           <li>
-            <a href="#about" onClick={toggleMenu}>
+            <a href="/#about" onClick={toggleMenu}>
               About
             </a>
           </li>
           <li>
-            <a href="#services" onClick={toggleMenu}>
+            <a href="/#services" onClick={toggleMenu}>
               Services
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMenu}>
+            <a href="/#contact" onClick={toggleMenu}>
               Contact
             </a>
           </li>
