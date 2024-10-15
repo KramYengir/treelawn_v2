@@ -68,7 +68,6 @@ const PreviousWorkPage = () => {
               imageAfterUrlB={work.imageAfterUrlB}
               imageAfterAltB={work.imageAfterAltB}
               caption={work.caption}
-              index={index}
             />
           </li>
         ))}
