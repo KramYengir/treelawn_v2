@@ -38,7 +38,7 @@ const GallerySection = ({
     <section className="w-full py-12">
       <div className="rm-container  gap-6 justify-center items-center ">
         <div>
-          <h3 className=" text-2xl font-bold text-center">{title}</h3>
+          <h2 className=" text-2xl font-bold text-center">{title}</h2>
           <p className="text-lg md:text-xl font-light tracking-wide text-center max-w-[45ch] mx-auto py-6">
             {description}
           </p>
