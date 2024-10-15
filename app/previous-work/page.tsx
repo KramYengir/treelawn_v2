@@ -5,9 +5,9 @@ import GallerySection from "@/components/GallerySection";
 
 const previousWorkData = [
   {
-    title: "Fresh Turf Installation",
+    title: "Fresh Lawn Installation",
     description:
-      "This project required the careful planning and preparation for the laying of fresh turf in an old garden",
+      "This project required the careful planning and preparation for the laying of fresh lawn in an old garden",
     imageBeforeUrl: "/images/garden-before.jpeg",
     imageBeforeAlt: "small garden without any grass",
     imageAfterUrl: "/images/garden-after.jpeg",
@@ -15,13 +15,29 @@ const previousWorkData = [
     caption: "Garden",
   },
   {
-    title: "",
-    description: "",
-    imageBeforeUrl: "",
-    imageBeforeAlt: "",
-    imageAfterUrl: "",
-    imageAfterAlt: "",
-    caption: "",
+    title: "Roadside Tree Care",
+    description:
+      "The project involved the careful removal of large trees along a busy farm road",
+    imageBeforeUrl: "/images/road-before.jpeg",
+    imageBeforeAlt: "country road with large trees",
+    imageAfterUrl: "/images/road-after.jpeg",
+    imageAfterAlt: "country road with large trees cut down",
+    caption: "Roadside",
+  },
+  {
+    title: "Land Clearing at Golf Course/Farm",
+    description:
+      "A huge project, involving the clearing and tidying of a large area of farmland which intersected with a active golf course",
+    imageBeforeUrl: "/images/farm-before.jpeg",
+    imageBeforeAlt: "row of large pines along a large farm shed",
+    imageDuringUrl: "/images/farm-during.jpeg",
+    imageDuringAlt:
+      "digger in the process of clearing knocked pine trees along large farm shed",
+    imageAfterUrl: "/images/farm-after-a.jpeg",
+    imageAfterAlt: "land cleared of trees along a large farm shed",
+    imageAfterUrlB: "/images/farm-after-b.jpeg",
+    imageAfterAltB: "land cleared of trees along a large farm shed",
+    caption: "Farm/Golf Course",
   },
 ];
 
@@ -32,22 +48,32 @@ const PreviousWorkPage = () => {
       <h2 className="h2 text-mucky-50 pt-32 pb-12 border-b-2 bg-apple-950 border-mucky-950/10 shadow-md">
         Previous Work
       </h2>
-      <p className="text-lg md:text-xl font-light text-balance text-center py-12 px-6">
-        Below are examples of some of the work I have completed for TreeLawn
+      <p className="text-lg md:text-xl font-medium text-balance text-center py-12 px-6 shadow-md">
+        Below are examples of some examples of the projects I have completed for
+        TreeLawn
       </p>
 
-      {previousWorkData.map((work, index) => (
-        <GallerySection
-          key={index}
-          title={work.title}
-          description={work.description}
-          imageBeforeUrl={work.imageBeforeUrl}
-          imageBeforeAlt={work.imageBeforeAlt}
-          imageAfterUrl={work.imageAfterUrl}
-          imageAfterAlt={work.imageAfterAlt}
-          caption={work.caption}
-        />
-      ))}
+      {/* Wrap the GallerySection components in a <ul> */}
+      <ul className="rm-container divide-y divide-mucky-950/10">
+        {previousWorkData.map((work, index) => (
+          <li key={index} className="py-8">
+            <GallerySection
+              title={work.title}
+              description={work.description}
+              imageBeforeUrl={work.imageBeforeUrl}
+              imageBeforeAlt={work.imageBeforeAlt}
+              imageDuringUrl={work.imageDuringUrl}
+              imageDuringAlt={work.imageDuringAlt}
+              imageAfterUrl={work.imageAfterUrl}
+              imageAfterAlt={work.imageAfterAlt}
+              imageAfterUrlB={work.imageAfterUrlB}
+              imageAfterAltB={work.imageAfterAltB}
+              caption={work.caption}
+            />
+          </li>
+        ))}
+      </ul>
+
       <Footer />
     </div>
   );
