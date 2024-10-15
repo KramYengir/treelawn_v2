@@ -7,7 +7,7 @@ const services = [
     imgAlt: "simple graphic of a chainsaw",
     title: "Tree Maintenance",
     description:
-      "As an experienced arborist, I provide expert tree cutting, trimming and clearance to keep your property safe and well-maintained",
+      "As an experienced arborist, I provide expert tree cutting, crowning, trimming and clearance to keep your property safe and well-maintained",
   },
   {
     imgUrl: "/images/digger-brown.png",
