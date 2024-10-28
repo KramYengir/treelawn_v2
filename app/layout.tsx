@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Saira, Saira_Semi_Condensed } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const saira = Saira_Semi_Condensed({
+const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["300", "400", "700", "800", "800"],
 });
 
 export const metadata: Metadata = {
@@ -64,7 +64,7 @@ export default function RootLayout({
       <meta name="apple-mobile-web-app-title" content="MyWebSite" />
       <link rel="manifest" href="/site.webmanifest" />
       <body
-        className={`${saira.className}  antialiased min-h-full text-mucky-900 bg-mucky-50`}
+        className={`${openSans.className}  antialiased min-h-full text-mucky-900 bg-mucky-50`}
       >
         {children}
       </body>
