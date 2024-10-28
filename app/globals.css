@@ -22,8 +22,13 @@ html {
   @apply uppercase text-nowrap px-5 py-3 rounded-md text-sm font-bold text-mucky-950 bg-mucky-50 outline outline-1 outline-mucky-900 hover:bg-mucky-100 hover:text-apple-700 focus:outline-mucky-700;
 }
 
+.h1 {
+  font-size: clamp(36px, 10vw, 96px);
+  line-height: 1;
+}
+
 .h2 {
-  @apply uppercase text-4xl md:text-5xl xl:text-6xl font-bold text-center pb-12 lg:pb-24 mx-auto;
+  @apply uppercase text-5xl xl:text-6xl font-extrabold text-center pb-12 lg:pb-24 mx-auto;
 }
 
 @layer base {
